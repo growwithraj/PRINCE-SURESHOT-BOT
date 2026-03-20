@@ -2,9 +2,10 @@
 import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, ChatJoinRequestHandler, ContextTypes
-
+import os
 # ========= CONFIG =========
-BOT_TOKEN = "8673419397:AAFSL5rPRMR3mJRkeTphJLcqsLXe1S4Yafk"
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 REGISTER_LINK = "https://okwingame22.com/#/register?invitationCode=7825714955019"
 ADMIN_USERNAME = "princtrade"
 
