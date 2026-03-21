@@ -8,7 +8,6 @@ import os
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 REGISTER_LINK = "https://okwingame22.com/#/register?invitationCode=7825714955019"
 ADMIN_USERNAME = "princtrade"
-
 VIDEO_PATH = "PRINCEVIDEO.mp4"
 VOICE_PATH = "VOICE.ogg"
 # ==========================
